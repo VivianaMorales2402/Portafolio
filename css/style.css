@@ -1,0 +1,78 @@
+*{
+    background: #f06464;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    font-family: "Courier New",monospace;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    background: white;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #043871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{ color: #043871;}
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensaje{
+    background: white;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #043871;
+    margin-left: 98px;
+    margin-top: 90px;
+    padding-left: 20px;
+    position: flex;
+    width: 500px;
+}    
+.mensaje:focus{
+    outline: none;
+}
+.buttons{
+    display: flex;
+    margin-top: 18px;
+}
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1PX solid #043871;
+    border-radius: 24px;
+    color: #043871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn-encriptar{
+    background-color:#043871;
+    border: 1PX solid #043871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.information{
+    color: #f8fafc;
+    font-size: 18px;
+}
