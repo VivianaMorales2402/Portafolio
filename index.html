@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <link rel = "stylesheet" href = "css/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <div>
+                <h1>Encriptador de texto</h1>
+            </div>
+        </div>
+        <img class = "logo" src = "img/encriptar.png">
+    </header>
+    
+    <main>
+        <section>
+            <textarea class = "text-area" cols = "30" rows = "10" placeholder = "Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class = "information">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class ="buttons">
+                <button class = "btn-encriptar" onclick = "btnEncriptar()">Encriptar</button>
+                <button class = "btn-desencriptar" onclick = "btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class = "mensaje" cols = "20" rows = "10s"></textarea>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
